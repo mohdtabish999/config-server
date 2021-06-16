@@ -1,0 +1,5 @@
+---
+applications:
+  - name: config-server
+    env:
+#      MONGO_SERVICE_NAME: "mymongodb"
