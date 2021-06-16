@@ -2,4 +2,5 @@
 applications:
   - name: config-server
     env:
+	   PORT: 8888
 #      MONGO_SERVICE_NAME: "mymongodb"
