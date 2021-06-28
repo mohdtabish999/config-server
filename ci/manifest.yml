@@ -3,5 +3,5 @@ applications:
   - name: config-server
 #    path: build-output/config-server-0.0.1-SNAPSHOT.jar
     path: build-output/config-server-0.0.1-SNAPSHOT.jar
-	env:
+    env:
 #      MONGO_SERVICE_NAME: "mymongodb"
