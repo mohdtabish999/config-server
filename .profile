@@ -12,6 +12,7 @@ git checkout -b main
 cp  /home/vcap/app/BOOT-INF/classes/translator-service.properties /home/vcap/config-server-file/translator-service.properties
 cp  /home/vcap/app/BOOT-INF/classes/wrapper-service.properties /home/vcap/config-server-file/wrapper-service.properties
 
-
 git add .
 git commit -m "first commit"
+
+cd /home/vcap/app
