@@ -6,8 +6,11 @@ cp $PWD/BOOT-INF/classes/wrapper-service.properties /home/vcap/config-server-fil
 
 cd /home/vcap/config-server-file/
 
+
 git config --global user.email "modhtabish@hcl.com"
 git config --global user.name "Mohd Tabish"
+
+git checkout -b main
 git init
 git add .
 git commit -m "first commit"
