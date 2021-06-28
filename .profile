@@ -5,6 +5,9 @@ cp $PWD/BOOT-INF/classes/translator-service.properties /home/vcap/config-server-
 cp $PWD/BOOT-INF/classes/wrapper-service.properties /home/vcap/config-server-file/wrapper-service.properties
 
 cd /home/vcap/config-server-file/
+
+git config --global user.email "modhtabish@hcl.com"
+git config --global user.name "Mohd Tabish"
 git init
 git add .
 git commit -m "first commit"
