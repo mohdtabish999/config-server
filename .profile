@@ -9,8 +9,8 @@ git config --global user.name "Mohd Tabish"
 git init
 git checkout -b main
 
-cp  /home/vcap/BOOT-INF/classes/translator-service.properties /home/vcap/config-server-file/translator-service.properties
-cp  /home/vcap/BOOT-INF/classes/wrapper-service.properties /home/vcap/config-server-file/wrapper-service.properties
+cp  /home/vcap/app/BOOT-INF/classes/translator-service.properties /home/vcap/config-server-file/translator-service.properties
+cp  /home/vcap/app/BOOT-INF/classes/wrapper-service.properties /home/vcap/config-server-file/wrapper-service.properties
 
 
 git add .
